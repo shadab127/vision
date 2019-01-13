@@ -12,7 +12,7 @@ def gmailer():
     s.starttls()
 
     # Authentication
-    s.login("shadab1234567891011@gmail.com", "123456789@qwerty")
+    s.login("your_emailid @gmail.com", "your_password")
 
     tts.say("give me reciever email id")
     recieveremail = str(sp.gstt())
